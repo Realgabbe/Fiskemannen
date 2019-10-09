@@ -34,50 +34,58 @@ public class uppgifter {
 		//tal = input.nextInt() + input.nextInt() + input.nextInt() + input.nextInt();
 		//
 		//System.out.println(tal);
-		//
+		
 		//Bättre sätt
+		//
+		//System.out.println("Skriv ett heltal mellan 1-999,999");
+		//
+		//int siffra1 = 0;
+		//int siffra2 = 0;
+		//int siffra3 = 0;
+		//int siffra4 = 0;
+		//int siffra5 = 0;
+		//int siffra6 = 0;
+		//
+		//int tal2 = 0;
+		//int tal3 = 0;
+		//int tal4 = 0;
+		//int tal5 = 0;
+		//int tal6 = 0;
+		//int tal7 = 0;
+		//
+		//int talsumma = 0;
+		//
+		//tal = input.nextInt();
+		//
+		//siffra1 = tal % 10;
+		//tal2 = tal/10;
+		//
+		//siffra2 = tal2 % 10;
+		//tal3 = tal2/10;
+		//
+		//siffra3 = tal3 % 10;
+		//tal4 = tal3/10;
+		//
+		//siffra4 = tal4 % 10;
+		//tal5 = tal4/10;
+		//
+		//siffra5 = tal5 % 10;
+		//tal6 = tal5/10;
+		//
+		//siffra6 = tal6 % 10;
+		//tal7 = tal6/10;
+		//
+		//talsumma = (siffra1 + siffra2 + siffra3 + siffra4 + siffra5 + siffra6);
+		//
+		//System.out.println("Talsumman är: " + talsumma);
 		
-		System.out.println("Skriv ett heltal mellan 1-999,999");
+		//Uppgift 3
+		//
 		
-		int siffra1 = 0;
-		int siffra2 = 0;
-		int siffra3 = 0;
-		int siffra4 = 0;
-		int siffra5 = 0;
-		int siffra6 = 0;
+		//Uppgift 4
+		//
 		
-		int tal2 = 0;
-		int tal3 = 0;
-		int tal4 = 0;
-		int tal5 = 0;
-		int tal6 = 0;
-		int tal7 = 0;
 		
-		int talsumma = 0;
-		
-		tal = input.nextInt();
-		
-		siffra1 = tal % 10;
-		tal2 = tal/10;
-		
-		siffra2 = tal2 % 10;
-		tal3 = tal2/10;
-		
-		siffra3 = tal3 % 10;
-		tal4 = tal3/10;
-		
-		siffra4 = tal4 % 10;
-		tal5 = tal4/10;
-		
-		siffra5 = tal5 % 10;
-		tal6 = tal5/10;
-		
-		siffra6 = tal6 % 10;
-		tal7 = tal6/10;
-		
-		talsumma = (siffra1 + siffra2 + siffra3 + siffra4 + siffra5 + siffra6);
-		
-		System.out.println("Tallsumman är: " + talsumma);
 	}
 
 }
