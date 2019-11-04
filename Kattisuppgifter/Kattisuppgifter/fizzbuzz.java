@@ -19,7 +19,7 @@ public class fizzbuzz {
 		
 		for (int i = 1; i <= N; i++) {
 			if (i % X == 0 && i % Y == 0) {
-				System.out.println("FizzBuzz");
+				System.out.println("Fizzbuzz");
 			} else if (i % X == 0) {
 				System.out.println("Fizz");
 			} else if (i % Y == 0) {
