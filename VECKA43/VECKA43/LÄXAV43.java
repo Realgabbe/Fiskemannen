@@ -68,7 +68,7 @@ public class LÄXAV43 {
 
 		celsius = input.nextDouble();
 
-		System.out.println("Temperaturen du angav i celsius blir i kelvin: " + (celsius + kelvinToCelsius));
+		System.out.println("Temperaturen du angav i celsius blir i kelvin: " + (celsius - kelvinToCelsius));
 
 	}
 
@@ -114,7 +114,7 @@ public class LÄXAV43 {
 		if (age < 100 && age > 64) {
 			System.out.println("Du är pensionär");
 		}
-		if (age > 100) {
+		if (age > 99) {
 			System.out.println("Om du inte redan är död så kommer du vara det snart, förbered dig :)");
 		}
 
