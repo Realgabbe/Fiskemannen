@@ -9,17 +9,18 @@ public class UPPGIFTER {
 		
 		Scanner input = new Scanner(System.in);
 		
-		FahrenheitToKelvin(input);
-		KelvinToCelsius(input);
-		VelocityConversion(input);
-		KineticEnergy(input);
-		PotentialEnergy(input);
-		Medelvärde(input);
-		smallletters(input);
-		programmering(input);
-		Time(input);
-		arbete(input);
-		velocityToHeight(input);
+		/*System.out.println(FahrenheitToKelvin(input));
+		System.out.println(KelvinToCelsius(input));
+		System.out.println(VelocityConversion(input));
+		System.out.println(KineticEnergy(input));
+		System.out.println(PotentialEnergy(input));
+		System.out.println(Medelvärde(input));
+		System.out.println(smallletters(input));
+		System.out.println(programmering(input));
+		System.out.println(Time(input));
+		System.out.println(arbete(input));
+		System.out.println(velocityToHeight(input)); */
+		System.out.println(sphereVolumeToRadius(input));
 	}
 /**
  * 
@@ -200,15 +201,34 @@ public class UPPGIFTER {
 		
 		return arbete;
 	}
-	
+	/**
+	 * 
+	 * @param input läser in en hastighet
+	 * @return skickar 
+	 */
 	public static double velocityToHeight(Scanner input) {
 		
-		System.out.println("Skriv in en massa och en hastighet så säger jag hur långt uppåt den kan åka");
+		System.out.println("Skriv in en hastighet så säger jag hur långt uppåt den kan åka");
 		
-		double massa = input.nextDouble();
 		double hastighet = input.nextDouble();
 		
+		double höjd = (hastighet*hastighet/2)/9.82;
 		
+		return höjd;
+
+	}	
+	
+	public static double sphereVolumeToRadius(Scanner input) {
+		
+		System.out.println("Skriv in en volym på en sfär så räknar jag ut radien på den");
+		
+		double volym = input.nextDouble();
+		
+		double pi = 3.14;
+
+		double radie = Math.pow((3*(volym*pi)), (1.0/3.0));
+		
+		return radie;
 
 	}
 	
